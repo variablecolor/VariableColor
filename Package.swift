@@ -20,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "VariableColor",
-            url: "https://d1uxfrxqms1qk3.cloudfront.net/uploads/140D0DB8-B309-4FF7-860A-F348C88C573E/output/VariableColor.xcframework.zip",
-            checksum: "f3982791fd3e3a814a6c192c5ba26661d8e3b4400c7107de880a0cdad0b37ab1"
+            url: "https://d1uxfrxqms1qk3.cloudfront.net/uploads/31CCAFD0-863E-4705-A8B9-C621F941E2B1/output/VariableColor.xcframework.zip",
+            checksum: "b0c099fc7f9bd263c7132186f970bbeac3abc1656542e208b75256da1c876695"
         ),
     ]
 )
