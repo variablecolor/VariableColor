@@ -25,8 +25,8 @@ let package = Package(
     .binaryTarget(
       name: "VariableColor",
       url:
-        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/31CCAFD0-863E-4705-A8B9-C621F941E2B1/output/VariableColor.xcframework.zip",
-      checksum: "b0c099fc7f9bd263c7132186f970bbeac3abc1656542e208b75256da1c876695"
+        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/70F7FF6B-DCB4-4500-869E-CCC5252EFC2B/./output/VariableColor.xcframework.zip",
+      checksum: "29f0c4b7baa7b5d4e8949fa7def85328f9c282076526923fe2df1e27696b818b"
     ),
     .binaryTarget(
       name: "VariableColorPM",
