@@ -31,8 +31,8 @@ let package = Package(
     .binaryTarget(
       name: "VariableColorPM",
       url:
-        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/FCAA214A-537E-4A43-B5EE-1803E3320AA6/output/VariableColorPM.xcframework.zip",
-      checksum: "47b73ef168e155be9de7953004b189ff692b4cd29e3f3d1207c9da2fe7ff4bbd"
+        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/2C803E8E-E0B3-46F3-A6AF-7DB638C97D30/output/VariableColorPM.xcframework.zip",
+      checksum: "4dfd3a6b0fc5a4d1bfdb7333e6493eb61b4f9710b8805e665fa2a109b1f61179"
     ),
 
   ]
