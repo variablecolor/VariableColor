@@ -9,11 +9,11 @@ let package = Package(
   products: [
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(
-      name: "VariableColor",
-      targets: ["VariableColor"]),
+      name: "VariableColorCore",
+      targets: ["VariableColorCore"]),
     .library(
-      name: "VariableColorPM",
-      targets: ["VariableColorPM"]
+      name: "VariableColor",
+      targets: ["VariableColor"]
     ),
   ],
   dependencies: [
@@ -23,17 +23,16 @@ let package = Package(
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
     .binaryTarget(
-      name: "VariableColor",
+      name: "VariableColorCore",
       url:
-        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/70F7FF6B-DCB4-4500-869E-CCC5252EFC2B/./output/VariableColor.xcframework.zip",
-      checksum: "29f0c4b7baa7b5d4e8949fa7def85328f9c282076526923fe2df1e27696b818b"
+        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/34D93074-6C32-4739-9CE3-00D6D0B0F399/VariableColorCore.xcframework.zip",
+      checksum: "c9c19fbc4ba92c5c3dd7d457c3962adaf11f49da8268b3170a2f552ca8045868"
     ),
     .binaryTarget(
-      name: "VariableColorPM",
+      name: "VariableColor",
       url:
-        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/FCAA214A-537E-4A43-B5EE-1803E3320AA6/output/VariableColorPM.xcframework.zip",
-      checksum: "47b73ef168e155be9de7953004b189ff692b4cd29e3f3d1207c9da2fe7ff4bbd"
+        "https://d1uxfrxqms1qk3.cloudfront.net/uploads/00049ED5-D0CF-4D1A-AEBB-CC7739CFCEF5/VariableColor.xcframework.zip",
+      checksum: "76bb91f4ce6df811bd2d7899da81eca475b10b5b7b7455562060240abbf1bec2"
     ),
-
   ]
 )
